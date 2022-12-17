@@ -105,7 +105,8 @@
     </div>
   </section>
   <section class="courses">
-    <div class="grid grid__col-6 grid__gap-40">
+    <h1 class="courses__theme">Направления обучения</h1>
+    <div class="grid grid__col-6 grid__gap-40 courses__left">
       <div class="swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
@@ -164,6 +165,26 @@
   </section>
 <footer class="footer">
   <!-- <div class="elfsight-app-88ad360f-1110-45bb-8772-e2cae52971b8"></div> -->
+  <button class="header__btn">SING IN</button>
+    <div class="modal">
+        <form class="modal__form">
+            <h2 class="modal__title"></h2>
+            <div class="modal__group">
+                <input required type="text" id="name" class="modal__input" placeholder="">
+                <label class="modal__label" for="name">Name </label>
+            </div>
+            <div class="modal__group">
+                <input required type="text" id="last-name" class="modal__input" placeholder="">
+                <label class="modal__label" for="last-name">Last-name</label>
+            </div>
+            <div class="modal__group">
+                <input required type="email" id="email" class="modal__input" placeholder="">
+                <label class="modal__label" for="email">Email</label>
+            </div>
+            <button class="modal__btn">Присоединиться</button>
+        </form>
+        <div class="modal__overlay"></div>
+    </div>
 </footer>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
