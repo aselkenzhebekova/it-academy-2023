@@ -272,8 +272,7 @@
 /* HERO SECTION */
 .hero {
   position: relative;
-  height: 100vh;
-  top: -50px;
+  height: calc(100vh - 50px);
   padding-top: 210px;
   background-image: url(../images/hero.jpg);
 }
@@ -281,21 +280,27 @@
   color: #fff;
 }
 .hero__title {
-  font-size: 6rem;
+  font-size: 7rem;
   margin-bottom: 100px;
+  max-width: 550px;
 }
 .hero__desc {
   font-size: 3rem;
+  margin-bottom: 50px;
 }
 .hero__btn {
   color: #fff;
   height: 58px;
 }
 .hero__btn_primary {
-  background-color: #1771f1;;
+  background-color: #1771f1;
+  margin-right: 20px;
+  width: 200px;
 }
 .hero__btn_white {
   color: #000;
+  background-color: #fff;
+  width: 260px;
 }
 /* HERO SECTION */
 
@@ -304,19 +309,20 @@
   height: 100vh;
   padding: 100px 0;
   background-color: #fff;
+  background-image: url(../images/fone.jpg);
 }
-.grid__cards {
+.about__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
 
 }
-.card__img {
+.about__img {
   border-radius: 40px;
   max-width: 500px;
   height: 600px;
 }
-img {
+.about__img img {
   border-radius: 30px;
   object-fit: center;
   object-position: cover;
@@ -324,19 +330,14 @@ img {
   height: 600px;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.58);
 }
-img:hover {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 600px;
-  height: 700px;
+.about__img img:hover {
+  
   transition: .6s;
 }
 
 .about__title {
   font-size: 50px;
-  color: blue;
+  color: #fff;
   margin-bottom: 40px;
 }
 .about__desc {
@@ -344,8 +345,7 @@ img:hover {
   font-size: 22px;
   max-width: 500px;
   margin-bottom: 40px;
-  
- color: blue;
+  color: #fff;
 }
 .about__svg {
   display: flex;
