@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
   <title>Document</title>
   <link rel="stylesheet" href="./assets/style/style.css">
   <link rel="stylesheet" href="./assets/style/media.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
-<body>  
+<body>
   <section class="header" id="header">
     <ul class="lightrope">
       <li></li>
@@ -69,64 +71,108 @@
         <a href="" class="header__link">тестирование</a>
         <a href="" class="header__link">вакансии</a>
       </div>
-    </div>    
+    </div>
   </section>
   <section class="hero" id="hero">
     <div class="container">
       <h1 class="hero__title">Начни Новый год с программирования!</h1>
-      <p class="hero__desc">Выбери свой формат — от тестовых краткосрочных курсов, до 10 месяцев полноценного обучения профессии</p>
+      <p class="hero__desc">Выбери свой формат — от тестовых краткосрочных курсов, до 10 месяцев полноценного обучения
+        профессии</p>
       <button class="hero__btn hero__btn_primary">Записаться на курс</button>
       <button class="hero__btn hero__btn_white">Сдать тест на профориентацию</button>
     </div>
 
   </section>
-  
+
 
   <section class="about">
     <div class="container">
       <div class="grid__cards">
-       <div class="card__img">
-        <img src="./assets/images/___7.png" alt="">
-       </div>
-       <div class="card__title">
-        <h1 class="about__title">IT-Academy</h1>
-        <p class="about__desc">“IT Академия” - проект Кыргызской ассоциации разработчиков программного обеспечения и услуг. Программа включает годичные курсы по программированию по сертифицированной программе IT академии ПВТ Беларуси. Образовательный центр IT академия готовит высококвалифицированных специалистов, способных работать в динамично развивающейся отрасли. Центр был создан для того, чтобы удовлетворить высокий спрос рынка труда в квалифицированных IT кадрах. Наша цель - формирование и выпуск качественных IT-специалистов в короткие сроки, отвечающих современным тенденциям IT-индустрии.</p>
-       </div>
+        <div class="card__img">
+          <img src="./assets/images/___7.png" alt="">
+        </div>
+        <div class="card__title">
+          <h1 class="about__title">IT-Academy</h1>
+          <p class="about__desc">“IT Академия” - проект Кыргызской ассоциации разработчиков программного обеспечения и
+            услуг. Программа включает годичные курсы по программированию по сертифицированной программе IT академии ПВТ
+            Беларуси. Образовательный центр IT академия готовит высококвалифицированных специалистов, способных работать
+            в динамично развивающейся отрасли. Центр был создан для того, чтобы удовлетворить высокий спрос рынка труда
+            в квалифицированных IT кадрах. Наша цель - формирование и выпуск качественных IT-специалистов в короткие
+            сроки, отвечающих современным тенденциям IT-индустрии.</p>
+        </div>
       </div>
       <div class="about__svg">
         <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M10.9393 21.0607C11.5251 21.6464 12.4749 21.6464 13.0607 21.0607L22.6066 11.5147C23.1924 10.9289 23.1924 9.97919 22.6066 9.3934C22.0208 8.80761 21.0711 8.80761 20.4853 9.3934L12 17.8787L3.51472 9.3934C2.92893 8.80761 1.97918 8.80761 1.3934 9.3934C0.807611 9.97918 0.807611 10.9289 1.3934 11.5147L10.9393 21.0607ZM10.5 -6.55671e-08L10.5 20L13.5 20L13.5 6.55671e-08L10.5 -6.55671e-08Z" fill="#3A4443"/>
+          <path
+            d="M10.9393 21.0607C11.5251 21.6464 12.4749 21.6464 13.0607 21.0607L22.6066 11.5147C23.1924 10.9289 23.1924 9.97919 22.6066 9.3934C22.0208 8.80761 21.0711 8.80761 20.4853 9.3934L12 17.8787L3.51472 9.3934C2.92893 8.80761 1.97918 8.80761 1.3934 9.3934C0.807611 9.97918 0.807611 10.9289 1.3934 11.5147L10.9393 21.0607ZM10.5 -6.55671e-08L10.5 20L13.5 20L13.5 6.55671e-08L10.5 -6.55671e-08Z"
+            fill="#3A4443" />
         </svg>
       </div>
     </div>
   </section>
   <section class="courses">
-    <div class="courses-slider">
-      <div class="courses-slider__wrapper grid grid__col-6 grid__gap-40 swipper-wrapper">
-        <div class="courses-slider__slide swiper-slide">
-          <div class="courses-slider__image d-flex ">
-            <img class="tilt__img" src="./assets/images/java.png" alt="java">
-            <div class="courses__text aling-center h-100">
-              <h3 class="courses__title">Язык Java</h3>
-              <p class="courses__desc">Java — строго типизированный объектно-ориентированный язык программирования
-                общего назначения, разработанный компанией Sun Microsystems. Это один]
-                  из наиболее известных и популярных языков, который используют во многих компаниях, в том числе в Netflix, AliExpress, 
-                  Google, Intel, eBay, TripAdvisor и многих других.</p>
-              <img src="./assets/images/google.svg" alt="google">
-              <img src="./assets/images/intel.svg" alt="intex">
-              <img src="./assets/images/netflix.svg" alt="netflix">
+      <div class="grid grid__col-6 grid__gap-40">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide d-flex">
+              <div class="courses-slider__image">
+                <img class="tilt__img" src="./assets/images/java.png" alt="java">
+              </div>
+              <div class="courses__text aling-center h-100">
+                <h3 class="courses__title">Язык Java</h3>
+                <p class="courses__desc">Java — строго типизированный объектно-ориентированный язык программирования
+                  общего назначения, разработанный компанией Sun Microsystems. Это один]
+                    из наиболее известных и популярных языков, который используют во многих компаниях, в том числе в Netflix, AliExpress, 
+                    Google, Intel, eBay, TripAdvisor и многих других.</p>
+                <img src="./assets/images/google.svg" alt="google">
+                <img src="./assets/images/intel.svg" alt="intex">
+                <img src="./assets/images/netflix.svg" alt="netflix">
+              </div>
             </div>
+            <div class="swiper-slide d-flex">
+              <div class="courses-slider__image width">
+                <img src="./assets/images/python.png" alt="java">
+              </div>
+              <div class="courses__text aling-center h-100">
+                <h3 class="courses__title">Язык Python</h3>
+                <p class="courses__desc">
+                  Python — высокоуровневый язык программирования, отличающийся эффективностью, простотой и универсальностью использования. Он широко применяется в разработке веб-приложений и прикладного программного обеспечения, а также в машинном обучении и обработке больших данных.</p>
+                  <p class="courses__desc">Будущие приложения/сайты наших выпускников <img src="./assets/images/emoje.png" alt=""></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide d-flex">
+                <div class="courses-slider__image width">
+                  <img src="./assets/images/c++.png" alt="java">
+                </div>
+                <div class="courses__text aling-center h-100">
+                  <h3 class="courses__title">Язык C++</h3>
+                  <p class="courses__desc">Язык программирования C++ C++ – один из самых популярных языков программирования. Он регулярно входит в ТОПы популярности programming language разных аналитических агентств. Например, в 2021 году GitHub поставил его на 7ое место, а TIOBE – на 3е.</p>
+                  <p class="courses__desc">Будущие приложения/сайты наших выпускников <img src="./assets/images/emoje.png" alt=""></p>
+                </div>
+              </div>
+            </div>
+            ...
           </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="feedback"></section>
-  <section class="address"></section>
   <footer class="footer">
-    <div class="elfsight-app-88ad360f-1110-45bb-8772-e2cae52971b8"></div>
+    <!-- <div class="elfsight-app-88ad360f-1110-45bb-8772-e2cae52971b8"></div> -->
   </footer>
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./assets/script/script.js"></script>
+
 </body>
+
 </html>

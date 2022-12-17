@@ -359,15 +359,22 @@ img:hover {
 /* COURSES */
 .courses{
   width: 100%;
+  margin-left: 400px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  display: block;
 }
-.courses-slider__slide{
-  height: 60rem;
+.swiper {
+  width: 600px;
+  height: 400px;
 }
 .courses-slider__image{
-  width: 55rem;
+  padding-top: 40px;
+  height: 25rem;
+  width: 130rem;
 }
 .courses-slider__image img{
-  width: 20rem;
+  width: 100%;
   height: 100%;
 }
 .courses__text{
@@ -377,15 +384,15 @@ img:hover {
 .courses__text img{
   height: 3rem;
   width: 3rem;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .courses__title{
-  font-size: 35px;
-  padding-top: 80px;
+  font-size: 30px;
+  padding-top: 35px;
 }
 .courses__desc{
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 25px;
   font-size: 15px;
 }
 
@@ -404,4 +411,7 @@ img:hover {
 
 
 /* FOOTER */
+.footer{
+  display: block;
+}
 /* FOOTER */
