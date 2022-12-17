@@ -25,3 +25,22 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+
+  const headerBtn = document.querySelector('.header__btn')
+const modal = document.querySelector('.modal')
+const form = document.querySelector('form')
+const modalBtn = document.querySelector('.modal__btn')
+const body = document.querySelector('body')
+
+headerBtn.addEventListener('click', () =>{
+    modal.style.display = 'block'
+})
+modalBtn.addEventListener('click', () =>{
+    modal.style.display = 'none'
+})
+modalBtn.addEventListener('click', () =>{
+    body.style.background = 'black'
+})
+headerBtn.addEventListener('click', () =>{
+    body.style.background = 'white'
+})
