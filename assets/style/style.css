@@ -304,6 +304,37 @@
 
 
 /* COURSES */
+.courses{
+  width: 100%;
+}
+.courses-slider__slide{
+  height: 60rem;
+}
+.courses-slider__image{
+  width: 55rem;
+}
+.courses-slider__image img{
+  width: 20rem;
+  height: 100%;
+}
+.courses__text{
+  justify-self: start;
+  margin-left: 3rem;
+}
+.courses__text img{
+  height: 3rem;
+  width: 3rem;
+  margin-right: 10px;
+}
+.courses__title{
+  font-size: 35px;
+  padding-top: 80px;
+}
+.courses__desc{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
 /* COURSES */
 
 
