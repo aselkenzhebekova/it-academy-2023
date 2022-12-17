@@ -8,8 +8,80 @@
   <link rel="stylesheet" href="./assets/style/style.css">
   <link rel="stylesheet" href="./assets/style/media.css">
 </head>
-<body>
-  <section class="hero"></section>
+<body>  
+  <section class="header" id="header">
+    <ul class="lightrope">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div class="container h-100 d-flex justify-around">
+      <nav class="header__nav d-flex align-center">
+        <a href="" class="header__link">курсы</a>
+        <a href="" class="header__link">методика</a>
+        <a href="" class="header__link">цена</a>
+        <a href="" class="header__link">отзывы</a>
+      </nav>
+      <a href="" class="header__logo">
+        <img src="./assets/images/logo.png" alt="logo">
+      </a>
+      <div class="header__nav d-flex align-center justify-between">
+        <a href="" class="header__link">контакты</a>
+        <a href="" class="header__link">тестирование</a>
+        <a href="" class="header__link">вакансии</a>
+      </div>
+    </div>    
+  </section>
+  <section class="hero" id="hero">
+    <div class="container">
+      <h1 class="hero__title">Начни Новый год с программирования!</h1>
+      <p class="hero__desc">Выбери свой формат — от тестовых краткосрочных курсов, до 10 месяцев полноценного обучения профессии</p>
+      <button class="hero__btn hero__btn_primary">Записаться на курс</button>
+      <button class="hero__btn hero__btn_white">Сдать тест на профориентацию</button>
+    </div>
+
+  </section>
+  
+
   <section class="about">
     <div class="container">
       <div class="grid__cards">
@@ -29,7 +101,26 @@
     </div>
   </section>
   <section class="courses">
-
+    <div class="courses-slider">
+      <div class="courses-slider__wrapper grid grid__col-6 grid__gap-40 swipper-wrapper">
+        <div class="courses-slider__slide swiper-slide">
+          <div class="courses-slider__image d-flex ">
+            <img class="tilt__img" src="./assets/images/java.png" alt="java">
+            <div class="courses__text aling-center h-100">
+              <h3 class="courses__title">Язык Java</h3>
+              <p class="courses__desc">Java — строго типизированный объектно-ориентированный язык программирования
+                общего назначения, разработанный компанией Sun Microsystems. Это один]
+                  из наиболее известных и популярных языков, который используют во многих компаниях, в том числе в Netflix, AliExpress, 
+                  Google, Intel, eBay, TripAdvisor и многих других.</p>
+              <img src="./assets/images/google.svg" alt="google">
+              <img src="./assets/images/intel.svg" alt="intex">
+              <img src="./assets/images/netflix.svg" alt="netflix">
+            </div>
+          </div>
+          <script src="tilt.jquery.js"></script>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="feedback"></section>
   <section class="address"></section>
