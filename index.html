@@ -105,11 +105,15 @@
     </div>
   </section>
   <section class="courses">
-    <div class="courses-slider">
-      <div class="courses-slider__wrapper grid grid__col-6 grid__gap-40 swipper-wrapper">
-        <div class="courses-slider__slide swiper-slide">
-          <div class="courses-slider__image d-flex ">
-            <img class="tilt__img" src="./assets/images/java.png" alt="java">
+    <div class="grid grid__col-6 grid__gap-40">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide d-flex">
+            <div class="courses-slider__image">
+              <img class="tilt__img" src="./assets/images/java.png" alt="java">
+            </div>
             <div class="courses__text aling-center h-100">
               <h3 class="courses__title">Язык Java</h3>
               <p class="courses__desc">Java — строго типизированный объектно-ориентированный язык программирования
@@ -121,15 +125,48 @@
               <img src="./assets/images/netflix.svg" alt="netflix">
             </div>
           </div>
-          <script src="tilt.jquery.js"></script>
+          <div class="swiper-slide d-flex">
+            <div class="courses-slider__image width">
+              <img src="./assets/images/python.png" alt="java">
+            </div>
+            <div class="courses__text aling-center h-100">
+              <h3 class="courses__title">Язык Python</h3>
+              <p class="courses__desc">
+                Python — высокоуровневый язык программирования, отличающийся эффективностью, простотой и универсальностью использования. Он широко применяется в разработке веб-приложений и прикладного программного обеспечения, а также в машинном обучении и обработке больших данных.</p>
+                <p class="courses__desc">Будущие приложения/сайты наших выпускников <img src="./assets/images/emoje.png" alt=""></p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide d-flex">
+              <div class="courses-slider__image width">
+                <img src="./assets/images/c++.png" alt="java">
+              </div>
+              <div class="courses__text aling-center h-100">
+                <h3 class="courses__title">Язык C++</h3>
+                <p class="courses__desc">Язык программирования C++ C++ – один из самых популярных языков программирования. Он регулярно входит в ТОПы популярности programming language разных аналитических агентств. Например, в 2021 году GitHub поставил его на 7ое место, а TIOBE – на 3е.</p>
+                <p class="courses__desc">Будущие приложения/сайты наших выпускников <img src="./assets/images/emoje.png" alt=""></p>
+              </div>
+            </div>
+          </div>
+          ...
         </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
       </div>
     </div>
   </section>
-  <section class="feedback"></section>
-  <section class="address"></section>
-  <footer class="footer"></footer>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="./assets/script/script.js"></script>
+<footer class="footer">
+  <!-- <div class="elfsight-app-88ad360f-1110-45bb-8772-e2cae52971b8"></div> -->
+</footer>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./assets/script/script.js"></script>
 </body>
 </html>
