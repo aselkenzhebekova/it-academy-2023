@@ -1,0 +1,74 @@
+@import './fonts.css';
+@import './reset.css';
+:root {
+  --light: ;
+  --dark: ;
+  --disabled: ;
+}
+
+/* UNIQUE */
+.container {
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: end;
+}
+
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-start {
+  align-items: flex-start;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+}
+.grid__col-6 {
+  grid-template-columns: 1fr 1fr;
+}
+.grid__col-4 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid__col-3 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid__gap-40 {
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.grid__gap-30 {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+/* UNIQUE */
+/* HEADER SECTION */
