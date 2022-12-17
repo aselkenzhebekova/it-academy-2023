@@ -281,11 +281,14 @@
   color: #fff;
 }
 .hero__title {
+  font-family: 'Abril Fatface';
   font-size: 6rem;
   margin-bottom: 100px;
+  max-width: 515px;
 }
 .hero__desc {
   font-size: 3rem;
+  margin-bottom: 50px;
 }
 .hero__btn {
   color: #fff;
@@ -296,6 +299,7 @@
 }
 .hero__btn_white {
   color: #000;
+  background-color: #fff;
 }
 /* HERO SECTION */
 
